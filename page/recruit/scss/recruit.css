@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+.main_visual_title h2 {
+  width: 22rem;
+}
+@media screen and (max-width: 700px) {
+  .main_visual_title h2 {
+    top: 38rem;
+    width: 18rem;
+  }
+}
+
+.staff-wanted {
+  margin-top: 8rem;
+}
+@media screen and (max-width: 700px) {
+  .staff-wanted {
+    margin-top: 6rem;
+  }
+}
+.staff-wanted_title {
+  background-color: white;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  text-align: center;
+}
+.staff-wanted_info {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.8rem;
+  margin-left: 2rem;
+}
+.staff-wanted_info_msg {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.flow {
+  margin-top: 8rem;
+}
+.flow_title {
+  background-color: white;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  text-align: center;
+}
+.flow_info {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 950px) {
+  .flow_info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.flow_info_step {
+  display: flex;
+  flex-direction: row;
+}
+.flow_info_step_img img {
+  height: 12rem;
+}
+.flow_info_step_exp {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  background-color: rgb(215, 215, 97);
+  width: 18rem;
+  height: 12rem;
+}
+.flow_info_step_exp h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.flow_info_step_exp p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+.flow_info_step + .flow_info_step {
+  margin-left: 1rem;
+}
+@media screen and (max-width: 950px) {
+  .flow_info_step + .flow_info_step {
+    margin-left: 0;
+  }
+}
+
+.job-description {
+  margin-top: 8rem;
+}
+.job-description_title {
+  background-color: rgb(187, 242, 184);
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.job-description_info {
+  margin-top: 2rem;
+}
+.job-description_info_table {
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+}
+.job-description_info_table tr {
+  height: 7rem;
+}
+.job-description_info_table th {
+  width: 23%;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  text-align: left;
+  border-bottom: 0.5px solid #bbb;
+  background-color: #eee;
+}
+.job-description_info_table td {
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-bottom: 0.5px solid #bbb;
+  background-color: #efe;
+}
+
+.recruit {
+  margin-top: 8rem;
+}
+.recruit_title {
+  background-color: rgb(187, 242, 184);
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.recruit_info .note {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.recruit_info .table {
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+}
+.recruit_info .table tr {
+  height: 7rem;
+}
+.recruit_info .table th {
+  width: 17rem;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  text-align: left;
+  border-bottom: 0.5px solid #bbb;
+  background-color: #eee;
+}
+.recruit_info .table td {
+  width: auto;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-bottom: 0.5px solid #bbb;
+  background-color: #efe;
+}
+.recruit_info .table .name input {
+  width: 80%;
+}
+.recruit_info .table .furigana input {
+  width: 80%;
+}
+.recruit_info .table .birthday .year {
+  width: 6rem;
+  margin-right: 0.5rem;
+}
+.recruit_info .table .birthday .month {
+  width: 6rem;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+.recruit_info .table .birthday .day {
+  width: 6rem;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+.recruit_info .table .phone input {
+  width: 5rem;
+}
+.recruit_info .table .phone .no1 {
+  margin-right: 0.5rem;
+}
+.recruit_info .table .phone .no2 {
+  margin-right: 0.5rem;
+}
+.recruit_info .table .mail input {
+  width: 80%;
+}
+.recruit_info .table .address p {
+  margin-top: 1rem;
+}
+.recruit_info .table .address td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.recruit_info .table .address .post-no1 {
+  width: 6rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.recruit_info .table .address .post-no2 {
+  width: 6rem;
+  margin-left: 0.5rem;
+}
+.recruit_info .table .address .prefecture {
+  width: 10rem;
+}
+.recruit_info .table .address .City {
+  width: 80%;
+}
+.recruit_info .table .address .street {
+  width: 80%;
+}
+.recruit_info .table .address .building {
+  width: 80%;
+}
+.recruit_info .submit input {
+  display: block;
+  background-color: orange;
+  width: 50%;
+  height: 6rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: white;
+  margin: 2rem auto;
+}/*# sourceMappingURL=recruit.css.map */

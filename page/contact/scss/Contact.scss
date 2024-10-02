@@ -1,0 +1,184 @@
+@charset "utf-8";
+// @use "../../../common/scss/_init.scss";
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+//////////////////////////////////////////////////
+// Main
+//////////////////////////////////////////////////
+
+// ===============================================
+// Main Visual
+// ===============================================
+.main_visual {
+  &_title {
+    h2 {
+      width: 35rem;
+
+      @media screen and (max-width: 700px) {
+        top: 38rem;
+        width: 26rem;
+      }
+    }
+  }
+}
+
+// ===============================================
+// お問い合わせフォーム
+// ===============================================
+.inquiry {
+  margin-top: 8rem;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 6rem;
+  }
+
+  &_title {
+    // background-color: white;
+    background-color: rgb(187, 242, 184);
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  &_info {
+    margin-top: 2rem;
+
+    .note {
+      font-size: 1.8rem;
+      font-weight: 500;
+      // color: red;
+    }
+
+    .table {
+      margin: 0 auto;
+      // border: 1px solid black;
+      background-color: white;
+      width: 100%;
+
+      tr {
+        height: 7rem;
+      }
+
+      th {
+        width: 17rem;
+        // width: 40rem;
+        padding-left: 1rem;
+        font-size: 1.8rem;
+        text-align: left;
+        border-bottom: 0.5px solid #bbb;
+        background-color: #eee;
+        // border-collapse: collapse;
+        // border-right: none !important;
+        // border-left: none !important;
+      }
+
+      td {
+        width: auto;
+        // width: 60rem;
+        padding-left: 1rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+        border-bottom: 0.5px solid #bbb;
+        background-color: #efe;
+        // border-collapse: collapse;
+        // border-right: none !important;
+        // border-left: none !important;
+      }
+
+      .name input {
+        width: 80%;
+      }
+
+      .furigana input {
+        width: 80%;
+      }
+
+      .company input {
+        width: 80%;
+      }
+
+      .address {
+        p {
+          margin-top: 1rem;
+        }
+
+        td {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
+
+        .post-no1 {
+          width: 6rem;
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+        }
+
+        .post-no2 {
+          width: 6rem;
+          margin-left: 0.5rem;
+        }
+
+        .prefecture {
+          width: 10rem;
+        }
+
+        .City {
+          width: 80%;
+        }
+
+        .street {
+          width: 80%;
+        }
+
+        .building {
+          width: 80%;
+        }
+      }
+
+      .phone {
+        input {
+          width: 5rem;
+        }
+
+        .no1 {
+          margin-right: 0.5rem;
+        }
+
+        .no2 {
+          margin-right: 0.5rem;
+        }
+      }
+
+      .mail input{
+        width: 80%;
+      }
+
+      .detail {
+        td {
+          padding-top: 1rem;
+
+          textarea {
+            width: 95%;
+          }
+        }
+      }
+    }
+
+    &_submit {
+      input {
+        display: block;
+        background-color: orange;
+        width: 50%;
+        height: 6rem;
+        border: none;
+        border-radius: 10px;
+        font-size: 2rem;
+        color: white;
+        margin: 2rem auto;
+      }
+    }
+  }
+}

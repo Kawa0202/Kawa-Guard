@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+.main_visual_title h2 {
+  width: 35rem;
+}
+@media screen and (max-width: 700px) {
+  .main_visual_title h2 {
+    top: 38rem;
+    width: 26rem;
+  }
+}
+
+.inquiry {
+  margin-top: 8rem;
+}
+@media screen and (max-width: 700px) {
+  .inquiry {
+    margin-top: 6rem;
+  }
+}
+.inquiry_title {
+  background-color: rgb(187, 242, 184);
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.inquiry_info {
+  margin-top: 2rem;
+}
+.inquiry_info .note {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.inquiry_info .table {
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+}
+.inquiry_info .table tr {
+  height: 7rem;
+}
+.inquiry_info .table th {
+  width: 17rem;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  text-align: left;
+  border-bottom: 0.5px solid #bbb;
+  background-color: #eee;
+}
+.inquiry_info .table td {
+  width: auto;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-bottom: 0.5px solid #bbb;
+  background-color: #efe;
+}
+.inquiry_info .table .name input {
+  width: 80%;
+}
+.inquiry_info .table .furigana input {
+  width: 80%;
+}
+.inquiry_info .table .company input {
+  width: 80%;
+}
+.inquiry_info .table .address p {
+  margin-top: 1rem;
+}
+.inquiry_info .table .address td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.inquiry_info .table .address .post-no1 {
+  width: 6rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.inquiry_info .table .address .post-no2 {
+  width: 6rem;
+  margin-left: 0.5rem;
+}
+.inquiry_info .table .address .prefecture {
+  width: 10rem;
+}
+.inquiry_info .table .address .City {
+  width: 80%;
+}
+.inquiry_info .table .address .street {
+  width: 80%;
+}
+.inquiry_info .table .address .building {
+  width: 80%;
+}
+.inquiry_info .table .phone input {
+  width: 5rem;
+}
+.inquiry_info .table .phone .no1 {
+  margin-right: 0.5rem;
+}
+.inquiry_info .table .phone .no2 {
+  margin-right: 0.5rem;
+}
+.inquiry_info .table .mail input {
+  width: 80%;
+}
+.inquiry_info .table .detail td {
+  padding-top: 1rem;
+}
+.inquiry_info .table .detail td textarea {
+  width: 95%;
+}
+.inquiry_info_submit input {
+  display: block;
+  background-color: orange;
+  width: 50%;
+  height: 6rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: white;
+  margin: 2rem auto;
+}/*# sourceMappingURL=Contact.css.map */

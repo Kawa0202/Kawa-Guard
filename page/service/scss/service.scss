@@ -1,0 +1,103 @@
+@charset "utf-8";
+// @use "../../../common/scss/_init.scss";
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+//////////////////////////////////////////////////
+// Main
+//////////////////////////////////////////////////
+
+// ===============================================
+// Main Visual
+// ===============================================
+.main_visual {
+  &_title {
+    h2 {
+      width: 35rem;
+
+      @media screen and (max-width: 700px) {
+        top: 38rem;
+        width: 26rem;
+      }
+    }
+  }
+}
+
+// ===============================================
+// 警備
+// ===============================================
+.guard {
+  margin-top: 8rem;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 6rem;
+  }
+
+  &_title {
+    background-color: white;
+    // background-color: rgb(187, 242, 184);
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+    text-align: center;
+  }
+
+  &_info {
+    margin-top: 2rem;
+
+    @media screen and (max-width: 850px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    // display: flex;
+    // flex-direction: row;
+
+    &_photo {
+      float: left;
+      padding-right: 2rem;
+
+      @media screen and (max-width: 850px) {
+        float: none;;
+        padding-right: 0;
+      }
+
+      img {
+        width: 52rem;
+
+        @media screen and (max-width: 1050px) {
+          width: 45rem;
+        }
+
+        @media screen and (max-width: 850px) {
+          width: 52rem;
+        }
+
+        @media screen and (max-width: 600px) {
+          width: 45rem;
+        }
+      }
+    }
+
+    &_explanation {
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 3rem;
+      margin-left: 2rem;
+
+      @media screen and (max-width: 850px) {
+        margin-left: 0;
+      }
+
+      @media screen and (max-width: 700px) {
+        width: 43rem;
+      }
+
+
+      P + P {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}

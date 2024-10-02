@@ -1,0 +1,119 @@
+@charset "utf-8";
+// @use "../../../common/scss/_init.scss";
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+//////////////////////////////////////////////////
+// Main
+//////////////////////////////////////////////////
+
+// ===============================================
+// Main Visual
+// ===============================================
+.main_visual {
+  &_title {
+    h2 {
+      width: 22rem;
+
+      @media screen and (max-width: 700px) {
+        top: 38rem;
+        width: 18rem;
+      }
+    }
+  }
+}
+
+// ===============================================
+// ご挨拶
+// ===============================================
+.greeting {
+  margin-top: 8rem;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 6rem;
+  }
+
+  &_title {
+    background-color: white;
+    // background-color: rgb(187, 242, 184);
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+    text-align: center;
+  }
+
+  &_info {
+    margin-top: 2rem;
+
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.8rem;
+    margin-left: 2rem;
+
+    &_msg {
+      margin-top: 2.5rem;
+    }
+
+    &_list {
+      margin-top: 2.5rem;
+    }
+  }
+}
+
+// ===============================================
+// 会社概要
+// ===============================================
+.overview {
+  margin-top: 8rem;
+
+  &_title {
+    // background-color: white;
+    background-color: rgb(187, 242, 184);
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  &_info {
+    margin-top: 2rem;
+
+    .table {
+      margin: 0 auto;
+      // border: 1px solid black;
+      background-color: white;
+      width: 100%;
+
+      tr {
+        height: 7rem;
+      }
+
+      th {
+        width: 37%;
+        // width: 40rem;
+        padding-left: 1rem;
+        font-size: 1.8rem;
+        text-align: left;
+        border-bottom: 0.5px solid #bbb;
+        background-color: #eee;
+        // border-collapse: collapse;
+        // border-right: none !important;
+        // border-left: none !important;
+      }
+
+      td {
+        // width: auto;
+        // width: 60rem;
+        padding: 1rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        border-bottom: 0.5px solid #bbb;
+        background-color: #efe;
+        // border-collapse: collapse;
+        // border-right: none !important;
+        // border-left: none !important;
+      }
+    }
+  }
+}

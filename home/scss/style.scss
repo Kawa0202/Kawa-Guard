@@ -1,0 +1,132 @@
+@charset "utf-8";
+@use "../../common/scss/_init.scss";
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+//////////////////////////////////////////////////
+// Main
+//////////////////////////////////////////////////
+
+// ===============================================
+// Main Visual
+// ===============================================
+.main_visual {
+  &_title {
+    h2 {
+      width: 70rem;
+
+      @media screen and (max-width: 700px) {
+        top: 33rem;
+        width: 31rem;
+        padding-left: 2rem;
+      }
+    }
+  }
+}
+
+// ===============================================
+// サービス内容
+// ===============================================
+.service {
+  margin-top: 8rem;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 6rem;
+  }
+
+  &_title {
+    background-color: white;
+    // background-color: rgb(187, 242, 184);
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+    text-align: center;
+  }
+
+  &_info {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &_item {
+      h3 {
+        font-family: "RocknRoll One", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-style: normal;
+        color: green;
+
+        // font-size: 2rem;
+        // font-weight: 600;
+      }
+
+      img {
+        width: 50rem;
+
+        @media screen and (max-width: 600px) {
+          width: 45rem;
+        }
+      }
+    }
+  }
+}
+
+// ===============================================
+// 当社のこだわり
+// ===============================================
+.policy {
+  margin-top: 8rem;
+  background-color: #fff;
+  // background-color: #eee;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 4rem;
+  }
+
+  &_title {
+    background-color: white;
+    // background-color: rgb(187, 242, 184);
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+    text-align: center;
+  }
+
+  &_info {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+    @media screen and (max-width: 700px) {
+      width: 44rem;
+      margin: 2rem auto;
+    }
+
+    &_item {
+      width: 49rem;
+      height: 20rem;
+
+      @media screen and (max-width: 700px) {
+        height: auto;
+      }
+
+      h3 {
+        font-family: "RocknRoll One", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-style: normal;
+        color: green;
+      }
+
+      p {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

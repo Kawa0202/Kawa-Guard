@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+.main_visual_title h2 {
+  width: 22rem;
+}
+@media screen and (max-width: 700px) {
+  .main_visual_title h2 {
+    top: 38rem;
+    width: 18rem;
+  }
+}
+
+.greeting {
+  margin-top: 8rem;
+}
+@media screen and (max-width: 700px) {
+  .greeting {
+    margin-top: 6rem;
+  }
+}
+.greeting_title {
+  background-color: white;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  text-align: center;
+}
+.greeting_info {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3.8rem;
+  margin-left: 2rem;
+}
+.greeting_info_msg {
+  margin-top: 2.5rem;
+}
+.greeting_info_list {
+  margin-top: 2.5rem;
+}
+
+.overview {
+  margin-top: 8rem;
+}
+.overview_title {
+  background-color: rgb(187, 242, 184);
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.overview_info {
+  margin-top: 2rem;
+}
+.overview_info .table {
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+}
+.overview_info .table tr {
+  height: 7rem;
+}
+.overview_info .table th {
+  width: 37%;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  text-align: left;
+  border-bottom: 0.5px solid #bbb;
+  background-color: #eee;
+}
+.overview_info .table td {
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-bottom: 0.5px solid #bbb;
+  background-color: #efe;
+}/*# sourceMappingURL=company.css.map */
