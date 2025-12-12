@@ -1,0 +1,31 @@
+@charset "utf-8";
+@use "_init.scss";
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+//////////////////////////////////////////////////
+// 全体
+//////////////////////////////////////////////////
+.crlf1 {
+  display: none;
+
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
+}
+
+.crlf2 {
+  display: none;
+
+  @media screen and (max-width: 580px) {
+    display: block;
+  }
+}
+
+.crlf3 {
+  display: none;
+
+  @media screen and (max-width: 480px) {
+    display: block;
+  }
+}
